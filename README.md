@@ -3,6 +3,7 @@
 This repository contains files, configurations, and documentation for a LAN network designed for a therapy clinic. This project will be using concepts like routing, switching, DNS, IP address, and connectivity. 
 
 | Device | Interface | IP address | Subnet | Gateway |
+| ------ | --------- | ---------- | ------ | ------- |
 | Router | g0/0 | 192.168.10.1 | 255.255.255.0 | none |
 | Staff PC | Fa0 | 192.168.10.20 | 255.255.255.0 | 192.168.10.1 |
 | Server | Fa0 | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
