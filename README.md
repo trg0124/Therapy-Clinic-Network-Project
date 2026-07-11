@@ -1,4 +1,4 @@
-**Therapy Clinic Network Project**
+# Therapy Clinic Network Project
 
 This repository contains files, configurations, and documentation for a LAN network designed for a therapy clinic. This project will be using concepts like routing, switching, DNS, IP address, and connectivity. 
 
@@ -7,12 +7,6 @@ This repository contains files, configurations, and documentation for a LAN netw
 | Router | g0/0 | 192.168.10.1 | 255.255.255.0 | none |
 | Staff PC | Fa0 | 192.168.10.20 | 255.255.255.0 | 192.168.10.1 |
 | Server | Fa0 | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
-
-
-Staff PC --- Switch --- Router
-                |
-              Server
-
 
 **Contents**
 - Network Topology
@@ -32,9 +26,57 @@ Staff PC --- Switch --- Router
 
 **Services**
 - Static Routing
-- DNS
+- DNS (clinic.local -> 192.168.10.10)
 - Internal Hostname 
 - LAN Connectivity
 
+# Configuration Summary
 
+**Router Configuraton**
+- Configured LAN interface (g0/0)
+- Assigned IP: 192.168.10.1
+- Enabled interface with no shutdown
+
+**Switch Configuration**
+- Default configuration
+- Ports enabled
+
+**Server Configuration**
+- Static IP: 192.168.10.10
+- DNS Name: clinic.local
+- DNS IP Address: 192.168.10.10
+
+**PC Configuration**
+- Static IP: 192.168.10.20
+- Gateway: 192.168.10.1
+- DNS Server: 192.168.10.10
+
+# Protocol Demo
+
+**DNS**
+- clinic.local server ip address
+- DNS enabled
+
+**ICMP**
+Ping Tests:
+-  PC -> Router
+-  PC -> Server
+-  PC -> clinic.local
+
+# Connectivity
+Screenshot include:
+- ping to router
+- ping to server
+- DNS
+- Interface
+- Device IP configuration
+
+# How To Use
+1. Download therapy_clinic_network.pkt
+2. configs
+3. evidence
+4. Read Documentation
+
+# Author
 **Tanya Garza Saenz**
+CSCE 3530 - Therapy Clinic Network Project
