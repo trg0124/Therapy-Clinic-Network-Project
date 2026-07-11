@@ -1,6 +1,13 @@
-**Therapy Clinic Network Project**
+[tablemagic.csv](https://github.com/user-attachments/files/29910461/tablemagic.csv)**Therapy Clinic Network Project**
 
 This repository contains files, configurations, and documentation for a LAN network designed for a therapy clinic. This project will be using concepts like routing, switching, DNS, IP address, and connectivity. 
+
+[Uploadi
+Device	Interface	IP Address	Subnet Mask	Default Gateway
+Router	g0/0	192.168.10.1	255.255.255.0	—
+Staff PC	Fa0	192.168.10.20	255.255.255.0	192.168.10.1
+Server	Fa0	192.168.10.10	255.255.255.0	192.168.10.1ng tablemagic.csv…]()
+
 
 | Device | Interface | IP address | Subnet | Gateway |
 | ------ | --------- | ---------- | ------ | ------- |
