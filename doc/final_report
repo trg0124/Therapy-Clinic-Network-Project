@@ -1,1 +1,41 @@
+The purpose of this project is to create a functional computer network for a small therapy clinic. The overall goal of this project is to create a realistic client server using CISCO Packet Tracer and to show how the network works while using LAN. This project includes creating a network topology, DNS, configuring devices, and making sure there is connectivity. This report will describe the summary of the configurations, the process of creating the network, testing the outputs, what was challenging about this project, and the conclusions.
+	
+The main objective of this project is to create a secure network for the therapy clinic. Also, making sure that the router, switch, staff PC, and the server are configured. Not only configuring the devices, the DNS will also be added to the network services.
+ 
+The therapy clinic network uses different machines, such as routers, switches, computers, and servers. There is a CISCO 2911 router that is the “gateway” for the network. The CISCO 2960 switch is connected to the staff PC and the server. There is a DNS host that allows the PC to have a hostname “clinic.local”. All the devices are connected with the copper straight through cables and the LAN uses 192.168.10.0/24.
 
+The Domain Name System (DNS) allows the staff PC to be able to reach the server using “clinic.local” and not the IP address. DNS reads human names and put it to an IP address so the “clinic.local” is read as 192.168.10.10. The Address Resolution Protocol (ARP) makes IP addresses into MAC addresses. The Internet Control Message Protocol  (ICMP) is used to verify connections between the PC, router, and server with ping tests. 
+ 
+Router Configuration:
+•	Interface: GigabitEthernet0/0
+•	IP address: 192.168.10.1
+•	Subnet Mask: 255.255.255.0
+ 
+Switch Configuration: 
+•	Port Status: ON
+ 
+Staff PC Configuration:
+•	IP address: 192.168.10.20
+•	Subnet Mask: 255.255.255.0
+•	Gateway: 192.168.10.1
+•	DNS: 192.168.10.10
+  
+Server Configuration:
+•	IP address: 192.168.10.10
+•	Subnet Mask: 255.255.255.0
+•	Default Gateway: 192.168.10.1
+•	DNS: ON
+•	DNS: clinic.local -> 192.168.10.10
+
+Network Testing and Results:
+- Router Ping: Successful 
+- Server Ping: Successful
+- “clinic.local” Ping: Successful
+ 
+Arp Table
+ 
+Router Interface
+
+There were a few challenges I have encountered throughout this therapy clinic network project. For example, I used the wrong cable types and once I replaced it with copper straight through cables there was connectivity. Another challenge I have encountered is the PC could not determine the hostname, so I went into the server and made sure the correct IP address was in the DNS.
+
+The therapy clinic network was designed, connected, and working. All of the devices has their IP address, DNS, ARP, and ICMP working well and correctly. The staff computer is able to communicate with all the other devices, as well as the DNS. Overall, this project has helped me understand how network design and configuration is able to be successfully running.
