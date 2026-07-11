@@ -1,1 +1,25 @@
+  For this project I will create a small virtual computer network for a therapy clinic. The
+clinic must have high security on client information, such as patient records, patient schedules,
+check-ins, and secure communication between the workers. Overall, the goal of this project is to
+show how different types of networks work together to be able to have a reliable healthcare
+system.
 
+  The clinic will have a reception area where the patients will check in, private secure
+offices for the therapy session, and an administrative room. Since the staff members will be
+dealing with HIPPA there will need to be two different internet systems. The patients who visit
+will be able to use an isolated network, while the staff will be using LAN/ NAT to connect to the
+internet.
+
+  There will be two different networks, a staff network that is used by the employees and a
+client network that is going to be used by the visitors. The network will include a router, a
+switch, the staff’s personal computer(s), and a server that has DNS. The router will provide NAT
+that will allow the employees to work while the clinic’s information will be secure.
+
+-Device IP address
+-Router 192.168.10.1
+-Clinic Server 192.168.10.10
+-Staff Personal Computer 192.168.10.20
+-DNS Server 192.168.10.10
+
+  Overall, throughout this project I will demonstrate how a therapy clinic will need to use a
+secure network to be able to operate without worrying about client information being taken.
