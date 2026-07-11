@@ -1,0 +1,12 @@
+Server IP Configuration:
+IP Address: 192.168.10.10
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.10.1
+
+DNS Service:
+Status: ON
+
+DNS Records:
+Name: clinic.local
+Type: A
+Address: 192.168.10.10
