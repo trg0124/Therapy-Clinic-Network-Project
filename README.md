@@ -8,6 +8,12 @@ This repository contains files, configurations, and documentation for a LAN netw
 | Staff PC | Fa0 | 192.168.10.20 | 255.255.255.0 | 192.168.10.1 |
 | Server | Fa0 | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
 
+
+Staff PC --- Switch --- Router
+                |
+              Server
+
+
 **Contents**
 - Network Topology
 - Router, Switch, and Server Configurations
