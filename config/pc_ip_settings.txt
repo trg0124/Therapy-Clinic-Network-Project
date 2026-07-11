@@ -1,0 +1,10 @@
+Staff PC IP Configuration:
+IP Address: 192.168.10.20
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.10.1
+DNS Server: 192.168.10.10
+
+Ping Tests:
+ping 192.168.10.1 -> success
+ping 192.168.10.10 -> success
+ping clinic.local -> success
