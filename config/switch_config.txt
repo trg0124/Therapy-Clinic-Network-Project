@@ -1,0 +1,4 @@
+enable
+show running-config
+show vlan brief
+show interfaces status
