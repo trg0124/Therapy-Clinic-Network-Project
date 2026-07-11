@@ -71,12 +71,6 @@ Screenshot include:
 - Interface
 - Device IP configuration
 
-# How To Use
-1. Download therapy_clinic_network.pkt
-2. configs
-3. evidence
-4. Read Documentation
-
 # Author
 **Tanya Garza Saenz**
 CSCE 3530 - Therapy Clinic Network Project
